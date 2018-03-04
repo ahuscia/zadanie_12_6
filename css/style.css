@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    background: #FFC636;
+    color: #474143;
+    text-align: center;
+}
+
+h1,
+h2 {
+    margin: 40px 50px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+li {
+    font-size: 15px;
+}
+
+button {
+    background-color: #FFC636;
+    border: 1px solid white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 200px;
+}
