@@ -19,9 +19,7 @@ function searchCountries() {
     $('#countries').text('No found, try again!')
 });
 }
-function showCountriesList(resp) {
-  countriesList.empty();
-}
+
 function showCountriesList(resp) {
   countriesList.empty();
   resp.forEach(function (item) {
